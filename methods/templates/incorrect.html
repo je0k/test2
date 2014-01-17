@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<p>Sorry!  Your request was not what we expected, containing the following errors:
+  <ul>
+  {% for error in errors %}
+    <li> {{error}} </li>
+  {% endfor %}
+  </ul>
+Please generate another request to try again.
+</p>
+</body>
+</html>

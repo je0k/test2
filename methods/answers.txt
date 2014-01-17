@@ -1,0 +1,14 @@
+GET /check-get.html?andrewid=Mark&color=purpose HTTP/1.1
+Accept: */*
+Host: localhost
+Connection: Keep-Alive
+
+
+POST /check-post.html HTTP/1.1
+Accept: */*
+Host: localhost
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+
+andrewid=Mark&color=purpose
