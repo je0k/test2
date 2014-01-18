@@ -1,0 +1,11 @@
+# Django- and Python-specific files
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+# Emacs backup files
+*~
+
+# Mac OS data store file
+.DS_Store
